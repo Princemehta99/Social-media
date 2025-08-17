@@ -9,7 +9,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home),
     path('signup/',views.signup),
-    path('login/', views.loginn),
+    path('loginn/', views.loginn),
     path('logoutt/', views.logoutt),
     path('upload/',views.upload),
     path('like-post/<str:id>',views.likes,name='like-post'),
